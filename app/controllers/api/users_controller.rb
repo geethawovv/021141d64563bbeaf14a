@@ -2,7 +2,12 @@ class Api::UsersController < ApplicationController
   skip_before_action :verify_authenticity_token
 
   def index
-    users = User.all
+    if params[:input].present?
+      # binding.pry
+      users = User.search(params[:input])
+    else
+      users = User.all
+    end
     render json:{data:users,status:200}
   end
 
