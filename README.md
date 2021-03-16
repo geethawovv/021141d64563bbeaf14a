@@ -11,7 +11,7 @@ Things you may want to cover:
 
 * Configuration
 
-* Database creation with mysql to change the username and password go to config database.yml file and give user mysql host,username and password
+* Database creation with mysql to change the username and password go to config database.yml file and give your mysql host,username and password
 
 * Database initialization
 
