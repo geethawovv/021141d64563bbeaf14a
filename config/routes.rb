@@ -5,6 +5,6 @@ Rails.application.routes.draw do
     post 'user'=> 'users#create'
     put 'user/:id'=> 'users#update'
     delete 'user/:id'=> 'users#destroy'
-    get 'typehead/:input'=> 'users#index'
+    get 'typeahead/:input'=> 'users#index'
   end
 end
