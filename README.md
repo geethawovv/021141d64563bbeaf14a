@@ -5,13 +5,13 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version 2.6.5
 
 * System dependencies
 
 * Configuration
 
-* Database creation
+* Database creation with mysql to change the username and password go to config database.yml file and give user mysql host,username and password
 
 * Database initialization
 
